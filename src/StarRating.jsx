@@ -22,7 +22,7 @@ class StarRating extends React.Component {
     super(props);
 
     // initialize touch events
-    React.initializeTouchEvents(true);
+    // React.initializeTouchEvents(true);
 
     this.state = {
       ratingCache: {
